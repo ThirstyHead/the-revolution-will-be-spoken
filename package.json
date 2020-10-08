@@ -1,0 +1,22 @@
+{
+  "name": "the-revolution-will-be-spoken",
+  "version": "0.1.0",
+  "description": "[PRESENTATION] The Revolution will be Spoken",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThirstyHead/the-revolution-will-be-spoken.git"
+  },
+  "author": "Scott Davis <scott@thirstyhead.com> (https://thirstyhead.com)",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/ThirstyHead/the-revolution-will-be-spoken/issues"
+  },
+  "homepage": "https://github.com/ThirstyHead/the-revolution-will-be-spoken#readme",
+  "dependencies": {
+    "talk-o-vision": "github:thirstyhead/talk-o-vision"
+  }
+}
