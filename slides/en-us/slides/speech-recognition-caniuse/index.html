@@ -1,0 +1,26 @@
+      <section>
+        <h2 hidden aria-hidden="false">Speech Recognition Caniuse</h2>
+        <figure>
+          <a href="https://caniuse.com/mdn-api_speechrecognition">
+          <img src="speech-recognition-caniuse.png"
+               alt="Speech Recognition Caniuse"
+               class="contain"
+               data-src="https://caniuse.com/mdn-api_speechrecognition">
+          </a>
+
+          <figcaption>
+            <p>
+            Unfortunately, support for the W3C standard Speech Recognition API is limited to only browser manufacturers who have wired up their cloud services for Speech-to-Text to their front-end browser. 
+            </p>
+
+            <p>
+            And, sadly, that listing for Microsoft Edge is a false positive. Only Google browsers are wired up to use Google's cloud services. When Microsoft adopted Chromium for the core of the Edge browser, they neglected to wire the Microsoft cloud services up to their browser. As you can see, Apple and Mozilla need to do the same for their browsers. 
+            </p>
+
+            <p>
+            So, the standard is in place, and we have one browser that supports it. This means that once the other browser manufacturers catch up, this promising API will have a proper vehicle for you to use. In the meantime, you can write a polyfill that allows your browser to use a commercial cloud service, or you can look into the Mozilla DeepSpeech project for a free and open source Speech-to-Text engine that you can host yourself.  
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
